@@ -13,9 +13,6 @@ Module Input Variables
 Usage
 =====
 
-1-tier with only private subnets
--------------------------------
-
 ```hcl
 module "elasticbeanstalk_hosted_zone" {
   source = "github.com/door2door-io/d2d-terraform-eb-hosted-zones?ref=v0.0.1"
